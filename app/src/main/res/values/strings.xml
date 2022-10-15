@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CharCounter</string>
+    <string name="btn_input_name">Calculate!</string>
+    <string name="char_option">Characters</string>
+    <string name="Word_option">Words</string>
+    <string-array name="spinner_options">
+        <item>Characters</item>
+        <item>Words</item>
+    </string-array>
+</resources>
