@@ -23,6 +23,12 @@ public class ExampleUnitTest {
         assertEquals(expected_result,calculations.calcWords(starting_text));
     }
     @Test
+    public void calculateWordsWithExtraSpacesAndNumbersAndSpecialCharacters() {
+        final String starting_text="Nothing    is true, everything  is perm$tted.";
+        final String expected_result= "6";
+        assertEquals(expected_result,calculations.calcWords(starting_text));
+    }
+    @Test
     public void calculateWordsWithNumbers() {
         final String starting_text="Player FalcCon45 has entered the Game";
         final String expected_result= "6";
